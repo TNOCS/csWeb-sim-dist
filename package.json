@@ -1,0 +1,31 @@
+{
+  "name": "csweb-sim-dist",
+  "version": "1.0.0",
+  "description": "Standalone distribution of the csWeb-sim project for simulating chain effects in disaster scenarios using csWeb.",
+  "bin": {
+    "csWeb-sim": "lib/run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TNOCS/csWeb-sim-dist.git"
+  },
+  "keywords": [
+    "csweb",
+    "csweb-sim",
+    "simulation",
+    "simulator",
+    "state-machine"
+  ],
+  "author": "Erik Vullings",
+  "license": "MIT",
+  "dependencies": {
+    "csweb": "git://github.com/TNOCS/csWeb.git#7d9befbc04c236572c2a2b80753575d03d402797",
+    "hypertimer": "^2.1.3",
+    "winston": "^2.1.0"
+  },
+  "preferGlobal": "true",
+  "bugs": {
+    "url": "https://github.com/TNOCS/csWeb-sim/issues"
+  },
+  "homepage": "https://github.com/TNOCS/csWeb-sim#readme"
+}
